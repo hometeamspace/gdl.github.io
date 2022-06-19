@@ -1,0 +1,559 @@
+/****** Extra small devices (portrait phones, less than 576px)******/
+
+
+@media (max-width: 575.98px) { 
+
+    /*************************************************** home page *******************************************************************/
+
+   .navbar-brand img
+   {
+       width: 50%;
+   }
+
+  
+
+    .hero h1
+    {
+        font-size: 2.25rem;
+    }
+
+    .hero .banner-text
+    {
+        
+        font-size: 18px;
+    }
+
+    .hero .display-3
+    {
+    font-size: 2.05rem;
+    }
+
+    .hero-img
+    {
+        height: 185vh;
+    }
+
+    .hero p
+    {
+        font-size: 12px;
+    }
+
+    .contact-btn
+    {
+        font-size: 12px;
+    }
+
+    .begin-story h3
+    {
+        font-size: 3em;
+    }
+
+    .begin-story p
+    {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .resume-link
+    {
+        font-size: 11px;
+    }
+
+    .sep-date p
+    {
+        font-size: 33px;
+        padding: 10px;
+        margin: 30px;
+        
+    }
+
+    .upstory h3
+    {
+        font-size: 25px;
+    }
+
+    .up-right p
+    {
+        font-size: 13px;
+        line-height: 26px;
+    }
+
+    .up-right a
+    {
+        font-size: 11px;
+    }
+
+    .mkt-problem h3
+    {
+        font-size: 23px;
+    }
+    .mkt-problem p
+    {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .work-process-area h1
+    {
+        font-size: 40px;
+    }
+    .work-process-area p
+    {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .philosophy img
+    {
+        margin-bottom: 10px;
+    }
+
+    .philosophy h3
+    {
+        font-size: 37px;
+    }
+
+    .philosophy p
+    {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .overseas h3
+    {
+        font-size: 35px;
+    }
+
+    .overseas p
+    {
+        font-size: 13px;
+        line-height: 22px;
+        letter-spacing: 2px;
+    }
+
+    .up-right h3::before
+    {
+        height: 4px;
+    }
+
+    .team-hero
+    {
+        height: 62vh;
+    }
+
+    .team-hero-text 
+    {   
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -30%);
+        padding-top: 19rem;
+    }
+    .team-hero h1
+    {
+        font-size: 1.6em;
+        line-height: 1.3em;
+        letter-spacing: 2px;
+    }
+
+    .team-banner-text
+    {
+        font-size: 1rem;
+    }
+
+    .team-text
+    {
+        padding: 1em 2em 2em 2em;
+        
+    }
+
+    .team-mem-img
+    {
+        top: -11px;
+        left: 25px;
+    }
+
+    .team-experience , .team-knowledge
+    {
+        font-size: 3em;
+    }
+
+    .service-hero
+    {
+        height: 63vh;
+    }
+
+    .service-hero h1
+    {
+        font-size: 1.6em;
+    }
+
+    .service-reliable
+    {
+        font-size: 4em;
+    }
+
+    .client-top-projects
+    {
+        font-size: 35px;
+    }
+
+    .client-hero h1
+    {
+        font-size: 1.6em;
+    }
+
+    .contact-email-bg p
+    {
+        font-size: 1.3em;
+    }
+
+    .email h3 , .mobile h3
+    {
+        font-size: 1.5rem;
+        padding-left: 10px;
+    }
+
+    .client-hero
+    {
+        height: 70vh;
+    }
+
+    .contact-hero
+    {
+        height: 63vh;
+    }
+
+    .contact-hero h1
+    {
+        font-size: 1.6em;
+    }
+
+    .client-desc h5
+    {
+        padding: 10% 0% 10% 0%;
+    }
+
+    .service-reliable p
+    {
+        font-size: 35px;
+    }
+
+    .contact-email-bg p
+    {
+        font-size: 1.1em;
+        padding: 20px;
+    }
+
+  
+  
+ }
+
+
+ 
+/************** Small devices (landscape phones, 576px and up) *********************/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .hero-img
+    {
+        height: 225vh;
+    }
+
+    .hero h1
+    {
+        font-size: 1.5rem;
+    }
+
+    
+
+    .hero p
+    {
+        font-size: 14px;
+    }
+
+    .sep-date p
+    {
+        font-size: 5em;
+        padding: 0;
+        margin: 20px;
+    }
+
+    .philosophy img
+    {
+        margin-bottom: 10px;
+    }
+
+   
+
+    .client-top-projects
+    {
+        font-size: 7em;
+    }
+
+    .team-hero
+    {
+        height: 100vh;
+    }
+
+    .team-hero-text h1
+    {
+        font-size: 1.6em;
+    }
+
+    .team-hero-text
+    {
+        padding-top: 35rem;
+    }
+
+    .team-experience p , .team-knowledge p
+    {
+        font-size: 35px;
+    }
+
+    .navbar-brand img
+    {
+        width: 50%;
+    }
+
+    .team-text
+    {
+        padding: 1em 2em 2em 2em;
+    }
+
+    .client-top-projects p
+    {
+        font-size: 35px;
+    }
+
+    .client-hero
+    {
+        height: 100vh;
+    }
+
+    .service-hero
+    {
+        height: 100vh;
+    }
+
+    .service-reliable p
+    {
+        font-size: 35px;
+    }
+
+    .contact-hero
+    {
+        height: 45vh;
+    }
+ }
+
+
+ /******************* Medium devices (tablets, 768px and up) *****************/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .hero-img
+    {
+        height: 140vh;
+    }
+
+    .display-3
+    {
+        font-size: 3.8rem;
+    }
+
+    .mkt-problem p , .mkt-problem h3
+    {
+        padding-left: 6vw;
+    }
+
+    .sep-date p
+    {
+        font-size: 6em;
+    }
+
+    .up-right h3
+    {
+        font-size: 19px;
+        padding-left: 12px;
+    }
+
+    
+
+    .up-right p
+    {
+        font-size: 13px;
+        line-height: 23px;
+        padding: 12px;
+        
+    
+    }
+
+    .begin-story p
+    {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .resume-link 
+    {
+        font-size: 10px;
+    }
+
+    .up-right a
+    {
+        font-size: 10px;
+    }
+
+    .mkt-problem h3
+    {
+        font-size: 25px;
+    }
+
+    .mkt-problem p
+    {
+        font-size: 17px;
+        line-height: 29px;
+    }
+
+    .philosophy h3
+    {
+        font-size: 40px;
+    }
+
+    .philosophy p
+    {
+        line-height: 23px;
+    }
+
+    .footer
+    {
+        margin-top: 20px;
+    }
+
+    .osl
+    {
+        padding-left: 3vw;
+    }
+
+   .hilite-box-left
+   {
+       padding-bottom: 24px;
+   }
+
+
+    .hilite-box-right
+    {
+        padding-bottom : 68px; ;
+    }
+
+    .up-right h3::before
+    {
+        height: 4px;
+    }
+
+    .sticky.is-sticky
+    {
+        height: auto;
+    }
+
+    .work-process-area p
+    {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .team-experience , .team-knowledge
+    {
+        font-size: 7em;
+    }
+
+    .team-hero-text
+    {
+        padding-top: 60rem;
+    }
+
+    .contact-email-bg p
+    {
+        font-size: 2em;
+    }
+
+    .contact-hero
+    {
+        height: 57vh;
+    }
+}
+ 
+
+ /********** Large devices (desktops, 992px and up) **************/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    
+
+    .mkt-problem h3
+    {
+        padding-left: 6vw;
+    }
+
+    .mkt-problem p
+    {
+        padding-left: 6vw;
+    }
+
+    .osl
+    {
+        padding-left: 6vw;
+    }
+
+   .hilite-box-left
+   {
+       padding-bottom: 3px;
+   }
+
+   .philosophy p
+   {
+       line-height: 22px;
+   }
+
+}
+
+
+
+/************** Extra large devices (large desktops, 1200px and up)*************/
+@media (min-width: 1200px) {
+
+    .hero .banner-text
+    {
+        font-size: 18px;
+    }
+
+    .hero h1
+    {
+        font-size: 2.9em;
+        line-height: 1.3em;
+        letter-spacing: -1px;
+    }
+
+   
+ .navbar-nav
+ {
+     margin-right: 2rem;
+ }
+
+ .navbar-brand img
+{
+padding-top: 70px;
+margin-left: 3rem;
+}
+
+.navbar
+{
+height: 15vh;
+}
+
+.team-hero-text
+{
+    padding-top: 38rem;
+}
+
+
+ }
+
+

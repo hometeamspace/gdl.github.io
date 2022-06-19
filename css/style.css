@@ -1,0 +1,874 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
+
+
+/************************  home page ************************/
+
+body {
+  font-family: "gothamhtf-book", sans-serif;
+  background:#fff;
+  font-size: 16px;
+  
+}
+
+
+nav {
+
+  font-weight: 600;
+  
+}
+
+.navbar-nav
+{
+  margin-bottom: 25px;
+}
+
+
+.navbar .navbar-nav .nav-link
+{
+  color: #44464a;
+  font-size: 16px;
+  position: relative;
+  letter-spacing: 0.5px;
+  padding: 10px 8px;
+  font-family: 'exo 2' ,sans-serif;
+  font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #000000;
+  
+}
+
+
+.navbar-nav li.active
+{
+  border-bottom: 3px solid #00C191;
+}
+
+ .navbar-nav a:hover , .navbar-nav .nav-link:focus
+{
+  border-bottom: 3px solid #00C191;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav a.active
+{
+  text-decoration: none;
+}
+
+/***
+
+.navbar .navbar-nav .nav-link::after , .navbar .navbar-nav .nav-link:active ::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #03B7A0;
+  color: transparent;
+  width: 0%;
+  content: '.';
+  height: 3px;
+}
+
+.navbar .navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+.navbar .navbar-nav .nav-link {
+  transition: all 0.5s ease;
+}
+
+@media only screen and (min-width: 960px) {
+  .navbar .navbar-nav .nav-link {
+    padding: 1em 2em;
+  }
+  .navbar {
+    padding: 0;
+  }
+  .navbar .navbar-brand {
+    padding: 0 0.7em;
+  }
+}
+
+****/
+
+
+.navbar-nav li
+{
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'exo 2',sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #333;
+  
+}
+
+
+
+
+/******
+nav.navbar
+{
+  width: inherit;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+******/
+
+
+
+
+
+/****
+
+#magic-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 4px;
+  background: #00CC99;
+}
+
+
+***/
+
+
+.hero-img {
+  color: white;
+  background: linear-gradient(0deg , rgba(0 , 0 , 0 , 0.7) , rgba(0 , 0 , 0 , 0.5)), url(../images/hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+  position: relative;
+  
+
+}
+
+.hero-text 
+{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.hero .banner-text
+{
+  
+  font-family: 'gothamhtf-book' , sans-serif;
+  color: #03B7A0;
+  font-size: 1.6em;
+  font-family: 'exo 2' , sans-serif;
+  letter-spacing: 10px;
+  font-weight: 500;
+}
+
+.hero h1
+{
+  font-family: 'exo 2' , sans-serif;
+  font-weight: 800;
+}
+
+.hero p
+{
+  font-family: 'gothamhtf-book' , sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 1.5px;
+  line-height: 2em;
+  font-weight: 200;
+
+}
+
+.hero a
+{
+  background: #00CC99;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-family: 'gothamhtf-book' , sans-serif;
+  padding: 20px;
+
+}
+
+.contact-btn
+{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.contact-btn:hover , .contact-btn:focus , .contact-btn:active
+{
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  color: #fff;
+}
+
+/******* begin story ******/
+
+.begin-story
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.begin-story h3::before , .up-right h3::before , .philosophy h3::before
+{
+    content: "";
+    display: block;
+    //position: absolute;
+    height: 8px;
+    width: 50px;
+    background: #03B7A0;
+    
+    
+}
+
+.begin-story h3
+{
+    font-size: 4em;
+    font-weight: 900;
+    font-family: 'exo 2', sans-serif;
+    margin-top: 20px;
+}
+
+.begin-story p
+{
+    font-size: 21px;
+    line-height: 40px;
+    color: #0b0b0b;
+    font-family: 'gothamhtf-book' , sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+/******** begin story end *******/
+
+/******* resume link ******/
+
+.resume-link
+{
+    letter-spacing: 3px;
+    font-size: 16px;
+    color: #00CC99;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.resume-link:hover
+{
+    color: #079992;
+}
+
+/***** resume link end *****/
+
+/****** date seperator ******/
+
+.sep-date p
+{
+    font-size: 8em;
+    padding: 20px;
+    margin: 70px;
+   
+}
+
+.sep-date p
+{
+    font-family: 'exo 2' ,sans-serif;
+    opacity: 0.2;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/****** date seperator end ***/
+
+/******** upstory ********/
+
+.up-right
+{
+    background: #F6F8FA;
+    padding: 20px;
+    
+}
+
+.up-right h3 , .mkt-problem h3
+{
+    letter-spacing: 9.6px;
+    font-family: 'exo 2',sans-serif;
+    font-size: 1.3em;
+    padding-left: 20px;
+    font-weight: 600;
+    font-size: 1.8em;
+    
+}
+
+
+.up-right p
+{
+    font-size: 21px;
+    line-height: 1.6em;
+    padding: 20px;
+    color: #04091e;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'gothamhtf-book',sans-serif;
+    
+}
+
+.up-right a , .work-process-area a
+{
+    padding-left: 20px;
+    letter-spacing: 2px;
+    font-family: 'exo 2';
+    color: #00CC99;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.up-right a:hover , .work-process-area a:hover
+{
+    color: #079992;
+}
+
+/****** upstory end ******/
+
+
+/********* market problm ******/
+
+.mkt-problem
+{
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+
+.mkt-problem h3
+{
+    padding-left: 20vw;
+}
+
+.mkt-problem p
+{
+    font-size: 21px;
+    line-height: 1.6em;
+    padding-left: 20vw ;
+    color: #04091e;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'gothamhtf-book',sans-serif;
+}
+
+.problem-right
+{
+   background: #F6F8FA;
+   position: relative;
+   height: 50vh;
+   margin: 0px;
+   padding: 6% 0 6% 0;
+
+}
+
+.pr-img
+{
+    top: 7px;
+    position: absolute;
+    left: -41px;
+}
+
+/******* end mrkt problm ********/
+
+
+/******** gdl solution *****/
+
+
+
+.work-process-area h1
+{
+    font-size: 68px;
+    font-family: 'exo 2';
+    font-weight: 600;
+}
+
+.center-divider
+{
+    width: 7%;
+    margin: 0 auto;
+    border-top: 5px solid #03B7A0;
+}
+
+.work-process-area p
+{
+    font-size: 21px;
+    line-height: 1.6em;
+    padding: 2% 0 3% 0 ;
+    color: #44464a;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'gothamhtf-book',sans-serif;
+}
+
+.hilite-box-left
+{
+    background: #00CC99;
+    padding: 12% 14% 10% 14%;
+    
+}
+
+.hilite-box-right
+{
+    background: #00C191;
+    padding: 12% 14% 16% 14%;
+    
+}
+
+.hilite-box-left p , .hilite-box-right p
+{
+  color: #ffffff;
+font-family: "Gotham HTF", Sans-serif;
+font-size: 21px;
+font-weight: normal;
+line-height: 1.6em;
+margin: 0px;
+padding: 0px;
+}
+
+
+
+
+.work-process-area a
+{
+    margin-top: 20px;
+}
+
+.service-link
+{
+    padding-top: 55px;
+}
+
+/******* gdl sol end ****/
+
+
+/****** our philosophy ****/
+
+.philosophy h3
+{
+    
+    font-family: 'exo 2',sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+
+.philosophy p
+{
+    font-size: 21px;
+   padding-top: 20px;
+    color: #44464a;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'gothamhtf-book',sans-serif;
+    line-height: 1.6em;
+}
+
+/******** our philosophy end *****/
+
+/******* overseas ********/
+
+.osl
+{
+  padding-left: 20vw;
+}
+
+.osl a
+{
+  font-family: 'exo 2' ,sans-serif;
+  color: #03B7A0;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.osl a:hover
+{
+  color: #00C191;
+}
+
+.osl h3
+{
+  font-family: 'exo 2' , sans-serif;
+  font-weight: 600;
+  font-size: 1.8em;
+  line-height: 1.3em;
+  letter-spacing: 9.6px;
+  margin-bottom: 20px;
+  padding-bottom: 7%;
+}
+
+.osl p
+{
+  color: #44464a;
+  line-height: 1.6em;
+  font-family: 'gothamhtf-book';
+  font-size: 21px;
+  margin-bottom: 83px;
+}
+
+/******* overseas end ******/
+
+/********* footer ******/
+
+.footer
+{
+    background-image: url(../images/foot-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+    
+    
+    
+}
+
+.footer h3
+{
+    font-family: 'exo 2';
+    letter-spacing: 5px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+/******** footer end ****/
+
+/******** copyright ******/
+
+.copyright a
+{
+  color: #03B7A0;
+}
+
+.copyright
+{
+  font-family: 'gothamhtf-book';
+  background: #fff;
+}
+
+/******** copyright end ********/
+
+
+/****************************************************** our team **************************************/
+
+.team-hero
+{
+  color: #fff;
+  background: linear-gradient(0deg , rgba(0 , 0 , 0 , 0.7) , rgba(0 , 0 , 0 , 0.5)), url(../images/our-team.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+  background-attachment: fixed;
+  position: relative;
+  
+}
+
+.team-banner-text
+{
+  font-family: 'gothamhtf-book' , sans-serif;
+  color: #03B7A0;
+  font-size: 1.6em;
+  font-family: 'exo 2' , sans-serif;
+  letter-spacing: 10px;
+  font-weight: 500;
+}
+
+.team-hero h1
+{
+  font-family: 'exo 2' , sans-serif;
+  font-weight: 800;
+  font-size: 4em;
+}
+
+.team-hero-text
+{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  padding-top: 25rem;
+}
+
+.bg-offwhite
+{
+  background: #F6F8FA;
+  padding: 40px 40px 40px 0px;
+}
+
+.team-member
+{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.team-mem-img
+{
+  top: -14px;
+  left: -50px;
+  
+}
+
+.team-member h2
+{
+  font-size: 4.2rem;
+  text-align: left;
+  font-family: 'exo 2',sans-serif;
+
+}
+
+.team-member h2::before
+{
+  content: "";
+    display: block;
+    position: absolute;
+    height: 8px;
+    width: 50px;
+    background: #03B7A0;
+}
+
+.team-member h4
+{
+  font-size: 25px;
+  line-height: 1.9em;
+  font-family: 'exo 2',sans-serif;
+  font-weight: 800;
+}
+
+.team-member p
+{
+  font-size: 21px;
+  line-height: 1.8em;
+  font-family: 'gothamHTF-book',sans-serif ;
+}
+
+.team-member a
+{
+  font-family: 'exo 2' , sans-serif;
+  letter-spacing: 3px;
+  color: #00CC99;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-weight: 600;
+}
+
+.team-member a:hover
+{
+  color: #00C191;
+}
+
+.team-experience , .team-knowledge
+{
+  font-size: 8em;
+  padding-top: 20px;
+  opacity: 0.2;
+  font-family: 'exo 2',sans-serif;
+}
+
+/******************************************************* our team end ****************************/
+
+/********************************************************* clients & projects *******************/
+
+.client-projects
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.client-hero
+{
+  color: #fff;
+  background: linear-gradient(0deg , rgba(0 , 0 , 0 , 0.7) , rgba(0 , 0 , 0 , 0.5)), url(../images/our-team.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.client-hero h1
+{
+  font-family: 'exo 2' , sans-serif;
+  font-weight: 800;
+  font-size: 4em;
+}
+
+.client-desc h5
+{
+  font-family: 'exo 2' sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: -0.77px;
+}
+
+.client-desc li
+{
+  font-family: 'gothamHTF-book',sans-serif;
+  color: #44464a;
+  line-height: 35px;
+}
+
+.client-img::before
+{
+  border-top: 5px solid #00C191;
+  width: 25%;
+  content: "";
+  display: block;
+  
+  margin: 0 auto;
+
+}
+
+.client-top-projects
+{
+  font-size: 8em;
+  padding-top: 20px;
+  opacity: 0.2;
+  font-family: 'exo 2',sans-serif;
+}
+
+
+/******************************************************* clients & projects end ******************/
+
+
+/******************************************************* contact *************************/
+
+.contact-hero
+{
+  color: #fff;
+  background: linear-gradient(0deg , rgba(0 , 0 , 0 , 0.7) , rgba(0 , 0 , 0 , 0.5)), url(../images/our-team.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+  background-attachment: fixed;
+  position: relative;
+}
+
+
+.contact-hero h1
+{
+  font-family: 'exo 2' , sans-serif;
+  font-weight: 800;
+  font-size: 4em;
+}
+
+.contact-email-bg
+{
+  background: #F6F8FA;
+}
+
+.email-icon , .mobile-icon
+{
+  background: #00C191;
+}
+
+.email h3 , .mobile h3
+
+{
+  font-family: 'exo 2' ,sans-serif;
+  
+}
+
+.email h3::before , .mobile h3::before
+{
+  content: "";
+    display: block;
+    //position: absolute;
+    height: 8px;
+    width: 50px;
+    background: #03B7A0;
+    margin-bottom: 5px;
+    
+    
+}
+
+.contact-email-bg p
+{
+  font-family: 'exo 2' ,sans-serif;
+  font-size: 2.1em;
+  font-weight: 800;
+  color: #44464a;
+}
+
+/***************************************************** contact end *****************/
+
+/*************************************************** service ***************/
+
+.service-hero
+{
+  color: #fff;
+  background: linear-gradient(0deg , rgba(0 , 0 , 0 , 0.7) , rgba(0 , 0 , 0 , 0.5)), url(../images/header-services.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  background-attachment: fixed;
+  position: relative;
+  
+}
+
+.service-hero h1
+{
+  font-family: 'exo 2', sans-serif;
+}
+
+.equip-mgt h4
+{
+  font-size: 25px;
+  line-height: 1.9em;
+  font-family: 'exo 2',sans-serif;
+  font-weight: 800;
+  letter-spacing: 9.6px;
+}
+
+.equip-mgt p , .equip-mgt li
+{
+  font-size: 21px;
+  font-family: 'gothamHTF-book',sans-serif;
+  color: #44464a;
+  line-height: 1.8em;
+}
+
+.equip-mgt h4::before
+{
+  content: "";
+    display: block;
+    position: absolute;
+    height: 8px;
+    width: 50px;
+    background: #03B7A0;
+}
+
+.service-reliable
+{
+  font-size: 6em;
+  padding-top: 20px;
+  opacity: 0.2;
+  font-family: 'exo 2',sans-serif;
+}
+
+
+/*************************************************** serrvice end ******************/
+
+
